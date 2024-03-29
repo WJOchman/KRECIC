@@ -1,2 +1,7 @@
-# University of Greenwich | Final Year Project | KRECIC
-Final Year Project for the BEng (Hons) in Computer Engineering at the University of Greenwich. This project is created, developed, and maintained by Wojciech J Ochman.
+# Individual Final Year Project | Design and Development of a Modular Educational Wheeled Robot for Educational Usage
+
+This project has been developed as part of a university course requirement. It aims to demonstrate the application of learned concepts in a practical setting. 
+
+## License
+
+This project is for educational purposes only and not intended for commercial use.
