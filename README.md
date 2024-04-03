@@ -1,4 +1,5 @@
-# Individual Final Year Project | Design and Development of a Modular Educational Wheeled Robot for Educational Usage
+# KRECIC (Knowledge and Robotics Educational Companion for Interactive Computing)
+## Design and Development of a Modular Wheeled Robot for Educational Usage
 
 This project has been developed as part of a university course requirement. It aims to demonstrate the application of learned concepts in a practical setting. 
 
