@@ -2,7 +2,42 @@
 ## Design and Development of a Modular Wheeled Robot for Educational Usage
 ## ELEE1036 Individual Project at the University of Greenwich | Academic Year 2023/24
 
-This project has been developed as part of a university course requirement. It aims to demonstrate the application of learned concepts in a practical setting. 
+## Table of Contents
+- [Introduction](#introduction)
+- [Hardware Setup](#hardware-setup)
+  - [Components](#components)
+  - [Manufacturing](#manufacturing)
+  - [Assembly](#assembly)
+- [Software Setup](#software-setup)
+  - [Operating System](#operating-system)
+  - [Robot Operating System](#robot-operating-system)
+  - [Motor and Movement Control](#motor-and-movement-control)
+  - [Camera Module](#camera-module)
+  - [LiDAR Module](#lidar-module)
+- [Contributors](#contributors)
+- [License](#license) 
+
+## Introduction
+
+## Hardware Setup
+
+### Components
+
+### Manufacturing 
+
+### Assembly
+
+## Software Setup
+
+### Operating System
+
+### Robot Operating System (ROS2)
+
+### Motor and Movement Control
+
+### Camera Module
+
+### LiDAR Module
 
 ## Contributors
 - [@WJOchman](https://github.com/WJOchman)
