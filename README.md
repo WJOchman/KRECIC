@@ -2,7 +2,7 @@
 ## ELEE1036 Individual Project at the University of Greenwich | Academic Year 2023/24
 
 <p align="center">
-  <img src="krecic_design/images/photographs/krecic_lidar_cam_configuration.png" alt="krecic_image" style="width: 375px; margin-right: 10px;"/>
+  <img src="krecic_design/images/photographs/krecic_lidar_cam_configuration.png" alt="krecic_image" style="width: 700px; margin-right: 10px;"/>
 </p>
 
 ## Table of Contents
