@@ -1,5 +1,4 @@
-# KRECIC (Knowledge and Robotics Educational Companion for Interactive Computing)
-## Design and Development of a Modular Wheeled Robot for Educational Usage
+# KRECIC (Knowledge and Robotics Educational Companion for Interactive Computing) | A Modular Wheeled Robot for Educational Usage
 ## ELEE1036 Individual Project at the University of Greenwich | Academic Year 2023/24
 
 ## Table of Contents
