@@ -138,9 +138,14 @@ To successfully mount and test the camera module, follow the following steps:
     ```
 
 ### LiDAR Module
+To successfully mount and test the LD06/LD19 LiDAR module please consider the repository by ldrobotSensorTeam. This tutorial presents a 4-step process on how to mount the LiDAR sensor, and use ROS2 to test it's functionality. It is advisable that you already have ROS2 installed on your Raspberry Pi. Consider the following link:
+
+  [LD06/LD19 Testing Instructions by ldrobotSensorTeam](https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2?tab=readme-ov-file#Instructions)
 
 ## Contributors
 - [@WJOchman](https://github.com/WJOchman)
+- Contact:
+  - [Wojciech Ochman | LinkedIn](https://www.linkedin.com/in/wojciech-j-ochman/)  
 
 ## License
 <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
