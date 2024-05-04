@@ -61,6 +61,81 @@ To test motor control please follow the circuit setup as demonstrated in the fol
 Upon successful circuit setup, start with the single motor test, then follow up with the double motor test. Lastly, you can control KRECIC using OpenSSH (as long as both KRECIC's raspberry pi, and your main machine are on the same network). [Click here](/krecic_code/motor_control/) to explore the motor control tests.
 
 ### Camera Module
+To successfully mount and test the camera module, follow the following steps: 
+
+1. Connect the camera module to the Raspberry Pi: 
+    <p align="center">
+      <img src="krecic_design/images/tutorial/camera_module_attachment.jpg"  alt="camera_module_attachment" style="width: 700px; margin-right: 10px;"/>
+    </p>
+
+2. Verify Camera Connection and Permissions:
+    
+    After connecting the camera module to the Raspberry Pi, confirm that the camera is recognised using the following:
+
+    ```
+    vcgencmd get_camera
+    ```
+
+    The output of this command should produce the following output:
+
+    ```
+    supported=1 detected=1
+    ```
+    
+    Check if your username has access to the camera by using the following command:
+
+    ```
+    groups 
+    ```
+
+    The output of this command should `video`. If not, use the following command to add your username to the `video` group:
+
+    ```
+    sudo usermod -aG video <your_username>
+    ```
+
+3. Install `raspi-config`:
+
+    ```
+    sudo apt install raspi-config
+    sudo raspi-config
+    ```
+
+4. Enable `Legacy Camera`, `SPI`, and `I2C` in Interface Options
+
+    <p align="center">
+      <img src="krecic_design/images/tutorial/raspi-config-interfacing-options-screen.jpg"  alt="camera_module_attachment" style="width: 700px; margin-right: 10px;"/>
+    </p>
+  
+    Restart your Raspberry Pi.  
+
+
+5. Install FFMPEG
+
+    Multiple softwares can be installed to test the functionality of the camera. The camera module can be tested with `libcamera`, `ros2`, `opencv`, etc. This tutorial uses `ffmpeg`.
+
+    ```
+    sudo apt install ffmpeg
+    ```
+
+
+5. Perform Picture Test
+
+    ```
+    ffmpeg -f video4linux2 -i /dev/video0 -vframes 1 test_image.jpg
+    ```
+
+6. Perform Video Recording Test
+
+    ```
+    ffmpeg -f video4linux2 -i /dev/video0 -t 10 -c:v libx264 test_video.mp4
+    ```
+
+7. Perform Live Stream Test
+
+    ```
+    ffmpeg -f video4linux2 -i /dev/video0 -f mpegts - | ffplay -
+    ```
 
 ### LiDAR Module
 
